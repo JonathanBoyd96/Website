@@ -1,36 +1,60 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;600&display=swap');
+
 /* Body styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e0e0e0;
+    background-color: #f4f4f4; /* Lighter background for contrast */
     color: #333;
+    display: flex; /* Use flexbox for layout */
 }
 
-/* Navigation menu styling */
-.navbar {
-    background-color: #bf2b2b;
-    padding: 10px 20px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+/* Sidebar styling */
+.sidebar {
+    background: linear-gradient(135deg, #bf2b2b, #a52626); /* Gradient background */
+    width: 200px; /* Adjusted width for a smaller sidebar */
+    padding: 20px; /* Padding for aesthetics */
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    height: 100vh; /* Full height */
+    position: fixed; /* Fixed position */
+    overflow-y: auto; /* Scroll if content exceeds */
 }
 
-.navbar a {
-    color: white;
-    text-decoration: none;
-    margin-right: 15px;
-    font-weight: bold;
-    transition: color 0.3s ease;
+.sidebar h2 {
+    color: white; /* Title color */
+    margin-bottom: 20px; /* Spacing below title */
 }
 
-.navbar a:hover {
-    color: #f0f0f0; /* Lighter color on hover */
+.sidebar ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
 }
 
-/* Container styling */
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 20px;
+.sidebar ul li {
+    margin: 15px 0; /* Spacing between items */
+}
+
+.sidebar a {
+    color: white; /* Link color */
+    text-decoration: none; /* No underline */
+    padding: 10px; /* Padding for clickable area */
+    display: block; /* Full-width clickable */
+    border-radius: 4px; /* Rounded corners */
+    transition: background 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect for sidebar links */
+.sidebar a:hover {
+    background-color: #922121; /* Darker background on hover */
+}
+
+/* Main content styling */
+.main-content {
+    margin-left: 220px; /* Leave space for the narrower sidebar */
+    padding: 40px; /* Padding around main content */
+    flex-grow: 1; /* Allow to take remaining space */
 }
 
 /* Header styling */
@@ -43,27 +67,31 @@ header {
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 header h1 {
-    font-size: 2.5em;
+    font-size: 2.8em; /* Larger font size */
     margin: 0;
+    text-transform: uppercase; /* Uppercase for emphasis */
 }
 header p {
-    font-size: 1.2em;
+    font-size: 1.4em; /* Larger font size */
     margin-top: 10px;
+    font-weight: 400; /* Lighter weight for subtext */
 }
 
 /* Section styling */
 section {
     background-color: white;
-    padding: 25px;
+    padding: 30px; /* Increased padding */
     margin-top: 20px;
     border-radius: 8px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
     position: relative;
+    /* Removed transform effect */
 }
 section h2 {
     margin-top: 0;
-    font-size: 1.8em;
+    font-size: 2em; /* Larger font size */
     color: #bf2b2b;
+    text-transform: uppercase; /* Uppercase for emphasis */
 }
 
 /* Button styling */
@@ -76,12 +104,14 @@ section h2 {
     border-radius: 5px;
     margin-top: 15px;
     font-weight: bold;
-    transition: all 0.3s ease;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Smooth transitions */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
 .btn:hover {
-    background: #922121;
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    background: #922121; /* Darker background on hover */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Increased shadow for depth */
+    transform: translateY(-2px); /* Slight lift effect */
 }
 
 /* Icon styling */
@@ -95,4 +125,18 @@ section h2 {
 .about, .experience {
     line-height: 1.6;
     font-size: 1.1em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .sidebar {
+        position: relative; /* Change position */
+        width: 100%; /* Full width */
+        height: auto; /* Auto height */
+        box-shadow: none; /* Remove shadow */
+    }
+    .main-content {
+        margin-left: 0; /* No margin for mobile */
+        padding: 20px; /* Reduce padding */
+    }
 }
