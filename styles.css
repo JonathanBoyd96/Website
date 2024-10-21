@@ -14,41 +14,84 @@ body {
 
 /* Sidebar styling */
 .sidebar {
-    width: 200px; /* Sidebar width */
-    background: linear-gradient(135deg, #bf2b2b, #a52626);
+    width: 220px; /* Adjusted Sidebar width */
+    background: linear-gradient(135deg, #bf2b2b, #892121); /* Gradient for the sidebar */
     color: white;
     padding: 20px;
-    position: fixed; /* Fixed positioning */
-    height: 100%; /* Full height */
-    overflow: auto; /* Allow scrolling */
-    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.15);
+    border-right: 2px solid rgba(255, 255, 255, 0.1); /* Soft border */
+}
+
+/* Sidebar header with logo/branding */
+.sidebar h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 /* Sidebar links */
 .sidebar ul {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0; /* Remove padding */
+    list-style-type: none;
+    padding: 0;
 }
+
 .sidebar a {
     display: block;
     color: white;
-    padding: 10px 15px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
     text-decoration: none;
-    transition: background 0.3s ease; /* Smooth transition for background */
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1); /* Box design for link */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: background 0.3s ease, transform 0.2s ease;
 }
+
 .sidebar a:hover {
-    background: rgba(255, 255, 255, 0.2); /* Light hover effect */
+    background: rgba(255, 255, 255, 0.25); /* Hover effect for links */
+    transform: translateY(-5px); /* Subtle lift on hover */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Active link styling */
+.sidebar a.active {
+    background: rgba(255, 255, 255, 0.35);
+    border-left: 4px solid #fff; /* Accent active page */
+    font-weight: bold;
+}
+
+/* Sidebar Footer */
+.sidebar-footer {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 /* Main content styling */
 .main-content {
-    margin-left: 220px; /* Adjust margin for sidebar */
+    margin-left: 240px; /* Adjusted margin for sidebar */
     padding: 20px;
+}
+
+/* Icons inside links */
+.sidebar a i {
+    margin-right: 10px;
+    font-size: 1.2em;
 }
 
 /* Header styling */
 header {
-    background: linear-gradient(135deg, #bf2b2b, #a52626);
+    background: linear-gradient(135deg, #bf2b2b, #b14343);
     color: white;
     padding: 40px 20px;
     text-align: center;
