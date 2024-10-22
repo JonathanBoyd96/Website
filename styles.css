@@ -105,6 +105,20 @@ header p {
     font-size: 1.2em;
 }
 
+/* Global paragraph styling */
+p {
+    margin-left: 20px; /* Indent all paragraphs */
+
+}
+
+/* Body list styling */
+.body-list {
+    margin-left: 20px; /* Indent all paragraphs */
+    font-size: 1.1rem;
+    line-height: 1.6; /* Better readability */
+    color: #333; /* Text color */
+}
+
 /* Section styling */
 section {
     background-color: white;
@@ -120,6 +134,13 @@ section h2 {
 }
 
 /* Button styling */
+
+.button-container {
+    display: flex; /* Use flexbox to center the button */
+    justify-content: center; /* Centers the button horizontally */
+    margin-top: 20px; /* Adjust as needed for spacing */
+}
+
 .btn {
     display: inline-block;
     background: linear-gradient(135deg, #bf2b2b, #a52626);
@@ -131,6 +152,7 @@ section h2 {
     font-weight: bold;
     transition: background 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
 }
 .btn:hover {
     background: #922121; /* Darker color on hover */
@@ -148,4 +170,62 @@ section h2 {
 .about, .experience {
     line-height: 1.6;
     font-size: 1.1em;
+}
+
+/* Styling for contact info */
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.contact-info li i {
+    font-size: 1.5rem;
+    margin-right: 15px;
+    color: #D9534F;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #D9534F;
+}
+
+/* Main content styling */
+.main-content {
+    max-width: 900px; /* Limit the width of the main content area */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* About Me section */
+.about-content {
+    display: flex;
+    align-items: flex-start; /* Aligns image and text vertically at the top */
+    flex-direction: row-reverse; /* Change the order of flex items */
+}
+
+/* About Me portrait image styling */
+.about-image {
+    width: 150px; /* Control the image size */
+    height: auto;
+    margin-left: 20px; /* Space between the text and the image */
+    flex-shrink: 0; /* Prevent image from shrinking */
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional rounded corners */
 }
