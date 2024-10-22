@@ -230,3 +230,14 @@ section h2 {
 .upload-area {
     margin-bottom: 20px;
 }
+
+/* Link styling */
+a.hyperlink {
+    color: #007bff; /* Bootstrap primary blue or any color you prefer */
+    text-decoration: underline; /* Underline to indicate it's a link */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+a.hyperlink:hover {
+    color: #0056b3; /* Darker shade on hover */
+}
