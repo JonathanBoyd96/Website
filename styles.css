@@ -81,6 +81,7 @@ body {
 .main-content {
     margin-left: 240px; /* Adjusted margin for sidebar */
     padding: 20px;
+    width: calc(100% - 240px); /* Full width minus sidebar width */
 }
 
 /* Icons inside links */
@@ -98,9 +99,11 @@ header {
     border-radius: 8px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
+
 header h1 {
     font-size: 2.5em;
 }
+
 header p {
     font-size: 1.2em;
 }
@@ -108,7 +111,6 @@ header p {
 /* Global paragraph styling */
 p {
     margin-left: 20px; /* Indent all paragraphs */
-
 }
 
 /* Body list styling */
@@ -126,7 +128,9 @@ section {
     margin-top: 20px;
     border-radius: 8px;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Ensure sections span full width */
 }
+
 section h2 {
     margin-top: 0;
     font-size: 1.8em;
@@ -134,7 +138,6 @@ section h2 {
 }
 
 /* Button styling */
-
 .button-container {
     display: flex; /* Use flexbox to center the button */
     justify-content: center; /* Centers the button horizontally */
@@ -152,8 +155,8 @@ section h2 {
     font-weight: bold;
     transition: background 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    
 }
+
 .btn:hover {
     background: #922121; /* Darker color on hover */
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
@@ -167,7 +170,8 @@ section h2 {
 }
 
 /* About and Experience sections */
-.about, .experience {
+.about,
+.experience {
     line-height: 1.6;
     font-size: 1.1em;
 }
@@ -200,13 +204,6 @@ section h2 {
 
 .contact-info a:hover {
     color: #D9534F;
-}
-
-/* Main content styling */
-.main-content {
-    max-width: 900px; /* Limit the width of the main content area */
-    margin: 0 auto;
-    padding: 20px;
 }
 
 /* About Me section */
