@@ -229,3 +229,7 @@ section h2 {
     height: auto;
     border-radius: 8px; /* Optional rounded corners */
 }
+
+.upload-area {
+    margin-bottom: 20px;
+}
