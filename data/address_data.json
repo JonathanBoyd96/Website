@@ -1,0 +1,22 @@
+[
+    {
+        "text": "Lisa Wu, 435 Maple Lane Apt 203, Salt Lake City, UT 84123",
+        "entities": [
+            [0, 8, "NAME"],
+            [9, 31, "ADDRESS"],
+            [32, 50, "CITY"],
+            [51, 53, "STATE"],
+            [54, 60, "ZIP"]
+        ]
+    },
+    {
+        "text": "Erik Adams, 555 Birch Road Suite 404, Columbus, OH 43215",
+        "entities": [
+            [0, 11, "NAME"],
+            [12, 38, "ADDRESS"],
+            [39, 58, "CITY"],
+            [59, 61, "STATE"],
+            [62, 68, "ZIP"]
+        ]
+    }
+]
