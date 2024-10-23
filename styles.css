@@ -69,7 +69,7 @@ body {
 /* Sidebar Footer */
 .sidebar-footer {
     position: absolute;
-    bottom: 5px;
+    bottom: 20px;
     left: 0;
     width: 100%;
     text-align: center;
@@ -283,6 +283,16 @@ a.hyperlink:hover {
         width: 100%;
         padding: 10px;
     }
+
+    .sidebar-footer {
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 0.9em;
+        color: rgba(255, 255, 255, 0.7);
+    }
 }
 
 /* For smartphones */
@@ -309,5 +319,15 @@ a.hyperlink:hover {
 
     .btn {
         padding: 8px;
+    }
+
+    .sidebar-footer {
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        font-size: 0.9em;
+        color: rgba(255, 255, 255, 0.7);
     }
 }
