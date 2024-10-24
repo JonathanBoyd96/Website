@@ -1,0 +1,210 @@
+[
+    {
+        "text": "Lisa Wu, 435 Maple Lane Apt 203, Salt Lake City, UT 84123",
+        "entities": [
+            [0, 8, "NAME"],
+            [9, 31, "ADDRESS"],
+            [32, 50, "CITY"],
+            [51, 53, "STATE"],
+            [54, 60, "ZIP"]
+        ]
+    },
+    {
+        "text": "Erik Adams, 555 Birch Road Suite 404, Columbus, OH 43215",
+        "entities": [
+            [0, 11, "NAME"],
+            [12, 38, "ADDRESS"],
+            [39, 58, "CITY"],
+            [59, 61, "STATE"],
+            [62, 68, "ZIP"]
+        ]
+    },
+    {
+        "text": "Jonathan Boyd 184 Bear Paw Ct • Bogart, GA • 30622 CELL (678) 977-5619 • E-MAIL JaBoyd1996@gmail.com",
+        "entities": [
+            [0, 8, "FIRST_NAME"],
+            [9, 13, "LAST_NAME"],
+            [14, 46, "ADDRESS"],
+            [49, 55, "CITY"],
+            [57, 59, "STATE"],
+            [62, 67, "ZIP"],
+            [97, 117, "EMAIL"]
+        ]
+    },
+    {
+        "text": "Maria Gonzalez 456 Oak Ridge Dr • Athens, GA • 30605 CELL (706) 123-4567 • E-MAIL maria.g@gmail.com",
+        "entities": [
+            [0, 5, "FIRST_NAME"],
+            [6, 14, "LAST_NAME"],
+            [15, 36, "ADDRESS"],
+            [39, 45, "CITY"],
+            [47, 49, "STATE"],
+            [52, 57, "ZIP"],
+            [87, 102, "EMAIL"]
+        ]
+    },
+    {
+        "text": "Michael Johnson 321 Riverstone Way • Atlanta, GA • 30339 CELL (404) 987-6543 • E-MAIL mjohnson@outlook.com",
+        "entities": [
+            [0, 7, "FIRST_NAME"],
+            [8, 15, "LAST_NAME"],
+            [16, 35, "ADDRESS"],
+            [38, 45, "CITY"],
+            [47, 49, "STATE"],
+            [52, 57, "ZIP"],
+            [87, 107, "EMAIL"]
+        ]
+    },
+    {
+        "text": "Sophia Martinez 1234 Elm St Apt 3B • Marietta, GA • 30067 CELL (770) 234-5678 • E-MAIL sophiam@gmail.com",
+        "entities": [
+            [0, 6, "FIRST_NAME"],
+            [7, 15, "LAST_NAME"],
+            [16, 34, "ADDRESS"],
+            [37, 45, "CITY"],
+            [47, 49, "STATE"],
+            [52, 57, "ZIP"],
+            [87, 103, "EMAIL"]
+        ]
+    },
+    {
+        "text": "James Lee 789 Pinebrook Rd • Augusta, GA • 30904 CELL (706) 876-5432 • E-MAIL jlee@yahoo.com",
+        "entities": [
+            [0, 5, "FIRST_NAME"],
+            [6, 9, "LAST_NAME"],
+            [10, 27, "ADDRESS"],
+            [30, 37, "CITY"],
+            [39, 41, "STATE"],
+            [44, 49, "ZIP"],
+            [77, 90, "EMAIL"]
+        ]
+    },
+    {
+        "text": "Emily Davis 654 Maplewood Cir • Alpharetta, GA • 30004 CELL (678) 345-6789 • E-MAIL emily.d@company.com",
+        "entities": [
+            [0, 5, "FIRST_NAME"],
+            [6, 11, "LAST_NAME"],
+            [12, 30, "ADDRESS"],
+            [33, 43, "CITY"],
+            [45, 47, "STATE"],
+            [50, 55, "ZIP"],
+            [85, 105, "EMAIL"]
+        ]
+    },
+    {
+        "text": "Oliver Smith 8903 Highland Ave • Savannah, GA • 31401 CELL (912) 555-1234 • E-MAIL oliver.smith@company.org",
+        "entities": [
+            [0, 6, "FIRST_NAME"],
+            [7, 12, "LAST_NAME"],
+            [13, 30, "ADDRESS"],
+            [33, 41, "CITY"],
+            [43, 45, "STATE"],
+            [48, 53, "ZIP"],
+            [83, 109, "EMAIL"]
+        ]
+    },
+    {
+        "text": "Ava Brown 2468 Lakefront St • Roswell, GA • 30075 CELL (770) 654-9876 • E-MAIL ava.brown@businessmail.com",
+        "entities": [
+            [0, 3, "FIRST_NAME"],
+            [4, 9, "LAST_NAME"],
+            [10, 28, "ADDRESS"],
+            [31, 38, "CITY"],
+            [40, 42, "STATE"],
+            [45, 50, "ZIP"],
+            [80, 106, "EMAIL"]
+        ]
+    },
+    {
+        "text": "William Anderson 1579 Broad St • Macon, GA • 31201 CELL (478) 234-0987 • E-MAIL wanderson@gmail.com",
+        "entities": [
+            [0, 7, "FIRST_NAME"],
+            [8, 16, "LAST_NAME"],
+            [17, 30, "ADDRESS"],
+            [33, 38, "CITY"],
+            [40, 42, "STATE"],
+            [45, 50, "ZIP"],
+            [80, 99, "EMAIL"]
+        ]
+    },
+    {
+        "text": "Charlotte Wilson 4567 Willow Ln • Decatur, GA • 30030 CELL (404) 321-7654 • E-MAIL charlotte.w@gmail.com",
+        "entities": [
+            [0, 9, "FIRST_NAME"],
+            [10, 16, "LAST_NAME"],
+            [17, 31, "ADDRESS"],
+            [34, 41, "CITY"],
+            [43, 45, "STATE"],
+            [48, 53, "ZIP"],
+            [83, 101, "EMAIL"]
+        ]
+    },
+    {
+        "text": "Liam Scott 6734 Hillcrest Ave • Columbus, GA • 31901 CELL (706) 765-4321 • E-MAIL liam.scott@domain.com",
+        "entities": [
+            [0, 4, "FIRST_NAME"],
+            [5, 10, "LAST_NAME"],
+            [11, 28, "ADDRESS"],
+            [31, 39, "CITY"],
+            [41, 43, "STATE"],
+            [46, 51, "ZIP"],
+            [81, 102, "EMAIL"]
+        ]
+    },
+    {"text": "John Doe, 123 Maple Street, Springfield, IL 62701", "entities": [[0, 4, "FIRST_NAME"], [5, 8, "LAST_NAME"], [10, 35, "ADDRESS"]]},
+    {"text": "Jane Smith, 456 Elm St Apt 5, Denver, CO 80203", "entities": [[0, 4, "FIRST_NAME"], [5, 10, "LAST_NAME"], [12, 34, "ADDRESS"]]},
+    {"text": "789 Oak Blvd • New York, NY 10001", "entities": [[0, 23, "ADDRESS"]]},
+    {"text": "Michael Scott, 101 Pine Ave Suite 300, Scranton, PA 18503", "entities": [[0, 7, "FIRST_NAME"], [8, 13, "LAST_NAME"], [15, 44, "ADDRESS"]]},
+    {"text": "15 Broadway Road, San Francisco, CA 94110", "entities": [[0, 32, "ADDRESS"]]},
+    {"text": "Amanda Lee, 223 Green Terrace • Houston, TX 77002", "entities": [[0, 6, "FIRST_NAME"], [7, 10, "LAST_NAME"], [12, 39, "ADDRESS"]]},
+    {"text": "David Miller, 300 Willow Drive Apt 8B, Chicago, IL 60616", "entities": [[0, 5, "FIRST_NAME"], [6, 12, "LAST_NAME"], [14, 41, "ADDRESS"]]},
+    {"text": "PO Box 789, Seattle, WA 98104", "entities": [[0, 23, "ADDRESS"]]},
+    {"text": "Lindsay Robinson, 99 University Ave, Madison, WI 53703", "entities": [[0, 7, "FIRST_NAME"], [8, 16, "LAST_NAME"], [18, 39, "ADDRESS"]]},
+    {"text": "204 Birch Street, Suite 22, Los Angeles, CA 90015", "entities": [[0, 37, "ADDRESS"]]},
+    {"text": "James Clark, 505 Cedar Lane, San Diego, CA 92101", "entities": [[0, 5, "FIRST_NAME"], [6, 11, "LAST_NAME"], [13, 36, "ADDRESS"]]},
+    {"text": "20 Forest Ave, Apt 101, Miami, FL 33133", "entities": [[0, 23, "ADDRESS"]]},
+    {"text": "Kim Lee, 810 Redwood Drive • Atlanta, GA 30303", "entities": [[0, 3, "FIRST_NAME"], [4, 7, "LAST_NAME"], [9, 34, "ADDRESS"]]},
+    {"text": "444 Spruce St, Philadelphia, PA 19107", "entities": [[0, 25, "ADDRESS"]]},
+    {"text": "Samuel Roberts, 222 Oakwood Ct, Dallas, TX 75201", "entities": [[0, 6, "FIRST_NAME"], [7, 14, "LAST_NAME"], [16, 37, "ADDRESS"]]},
+    {"text": "1000 Lincoln Blvd, Suite 500, Boston, MA 02118", "entities": [[0, 35, "ADDRESS"]]},
+    {"text": "Jessica Tan, 67 Elm St • Las Vegas, NV 89101", "entities": [[0, 7, "FIRST_NAME"], [8, 11, "LAST_NAME"], [13, 32, "ADDRESS"]]},
+    {"text": "3000 Cypress St, Portland, OR 97205", "entities": [[0, 22, "ADDRESS"]]},
+    {"text": "Carly Adams, 45 Maple Avenue • Chicago, IL 60610", "entities": [[0, 5, "FIRST_NAME"], [6, 11, "LAST_NAME"], [13, 35, "ADDRESS"]]},
+    {"text": "PO Box 456, Austin, TX 78701", "entities": [[0, 19, "ADDRESS"]]},
+    {"text": "500 Palm Dr, San Jose, CA 95112", "entities": [[0, 21, "ADDRESS"]]},
+    {"text": "Emily Johnson, 75 Magnolia Blvd, New Orleans, LA 70112", "entities": [[0, 5, "FIRST_NAME"], [6, 13, "LAST_NAME"], [15, 39, "ADDRESS"]]},
+    {"text": "120 Aspen Ln Apt 302, Nashville, TN 37203", "entities": [[0, 28, "ADDRESS"]]},
+    {"text": "Shelby Price, 10 Hickory Street, Detroit, MI 48201", "entities": [[0, 6, "FIRST_NAME"], [7, 12, "LAST_NAME"], [14, 32, "ADDRESS"]]},
+    {"text": "140 Willow Avenue • Orlando, FL 32801", "entities": [[0, 23, "ADDRESS"]]},
+    {"text": "Christine Park, 250 Beech Ct Apt 7A, Baltimore, MD 21202", "entities": [[0, 9, "FIRST_NAME"], [10, 14, "LAST_NAME"], [16, 39, "ADDRESS"]]},
+    {"text": "910 Oak St, Buffalo, NY 14202", "entities": [[0, 18, "ADDRESS"]]},
+    {"text": "325 Redwood Blvd, Phoenix, AZ 85001", "entities": [[0, 22, "ADDRESS"]]},
+    {"text": "Erik Adams, 555 Birch Road Suite 404, Columbus, OH 43215", "entities": [[0, 4, "FIRST_NAME"], [5, 10, "LAST_NAME"], [12, 39, "ADDRESS"]]},
+    {"text": "77 Walnut Dr • Indianapolis, IN 46204", "entities": [[0, 25, "ADDRESS"]]},
+    {"text": "1600 Spruce Ave, Apt 10C, Hartford, CT 06106", "entities": [[0, 26, "ADDRESS"]]},
+    {"text": "PO Box 321, Charleston, SC 29401", "entities": [[0, 21, "ADDRESS"]]},
+    {"text": "Lisa Wu, 435 Maple Lane Apt 203, Salt Lake City, UT 84101", "entities": [[0, 4, "FIRST_NAME"], [5, 7, "LAST_NAME"], [9, 37, "ADDRESS"]]},
+    {"text": "2000 Oakwood Blvd, Minneapolis, MN 55401", "entities": [[0, 24, "ADDRESS"]]},
+    {"text": "Phillip Spencer, 123 Cedar Ave • St. Louis, MO 63101", "entities": [[0, 7, "FIRST_NAME"], [8, 15, "LAST_NAME"], [17, 34, "ADDRESS"]]},
+    {"text": "890 Ash St, Suite 15, Kansas City, MO 64108", "entities": [[0, 25, "ADDRESS"]]},
+    {"text": "Tom Wilson, 65 Birch Ave Apt 2B, Richmond, VA 23219", "entities": [[0, 3, "FIRST_NAME"], [4, 10, "LAST_NAME"], [12, 32, "ADDRESS"]]},
+    {"text": "2100 Pine Road, Sacramento, CA 95814", "entities": [[0, 25, "ADDRESS"]]},
+    {"text": "900 Maple Ave • Santa Monica, CA 90401", "entities": [[0, 24, "ADDRESS"]]},
+    {"text": "Jack Lee, 333 Sycamore St, Las Vegas, NV 89101", "entities": [[0, 4, "FIRST_NAME"], [5, 8, "LAST_NAME"], [10, 30, "ADDRESS"]]},
+    {"text": "780 Poplar Dr, St. Paul, MN 55101", "entities": [[0, 22, "ADDRESS"]]},
+    {"text": "Julie Kim, 89 Pine Blvd • Memphis, TN 38103", "entities": [[0, 5, "FIRST_NAME"], [6, 9, "LAST_NAME"], [11, 27, "ADDRESS"]]},
+    {"text": "PO Box 654, Raleigh, NC 27601", "entities": [[0, 20, "ADDRESS"]]},
+    {"text": "380 Cedar Lane Apt 9, Fort Worth, TX 76102", "entities": [[0, 26, "ADDRESS"]]},
+    {"text": "160 Magnolia St, Jersey City, NJ 07302", "entities": [[0, 24, "ADDRESS"]]},
+    {"text": "Mark Allen, 1022 Hickory Ct, Albuquerque, NM 87102", "entities": [[0, 4, "FIRST_NAME"], [5, 10, "LAST_NAME"], [12, 29, "ADDRESS"]]},
+    {"text": "PO Box 789, San Antonio, TX 78205", "entities": [[0, 24, "ADDRESS"]]},
+    {"text": "132 Redwood Road • Tampa, FL 33602", "entities": [[0, 21, "ADDRESS"]]},
+    {"text": "202 Willow Dr, Denver, CO 80204", "entities": [[0, 19, "ADDRESS"]]},
+    {"text": "Abigail Turner, 300 Pine Ave, Seattle, WA 98101", "entities": [[0, 7, "FIRST_NAME"], [8, 14, "LAST_NAME"], [16, 32, "ADDRESS"]]},
+    {"text": "76 Chestnut Blvd, Suite 2, Portland, ME 04101", "entities": [[0, 29, "ADDRESS"]]},
+    {"text": "PO Box 999, Little Rock, AR 72201", "entities": [[0, 23, "ADDRESS"]]},
+    {"text": "987 Cedar Ct, Newark, NJ 07102", "entities": [[0, 18, "ADDRESS"]]},
+    {"text": "380 Palm St Apt 6B, Anchorage, AK 99501", "entities": [[0, 23, "ADDRESS"]]},
+    {"text": "Alex Davis, 500 Hickory St Suite 105, Madison, WI 53703", "entities": [[0, 4, "FIRST_NAME"], [5, 10, "LAST_NAME"], [12, 40, "ADDRESS"]]},
+    {"text": "125 Maple Dr, Spokane, WA 99201", "entities": [[0, 18, "ADDRESS"]]}
+]

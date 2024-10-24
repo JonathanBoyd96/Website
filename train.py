@@ -15,7 +15,7 @@ else:
     ner = nlp.add_pipe("ner", last=True)
 
 # Load your training data
-with open("data/address_data.json", "r") as f:
+with open("data/training_data.json", "r") as f:
     training_data = json.load(f)
 
 # Debugging: Check the structure of your training data
