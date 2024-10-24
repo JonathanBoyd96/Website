@@ -20,15 +20,13 @@
         ]
     },
     {
-        "text": "Jonathan Boyd 184 Bear Paw Ct • Bogart, GA • 30622 CELL (678) 977-5619 • E-MAIL JaBoyd1996@gmail.com",
+        "text": "Jonathan Boyd\nProduct Owner/Product Manager\nhttps://jonathanboyd96.github.io/Website/index.html\n184BearPawCt•Bogart,GA•30622\nCELL(678)977-5619•E-MAILJaBoyd1996@gmail.com",
         "entities": [
-            [0, 8, "FIRST_NAME"],
-            [9, 13, "LAST_NAME"],
-            [14, 46, "ADDRESS"],
-            [49, 55, "CITY"],
-            [57, 59, "STATE"],
-            [62, 67, "ZIP"],
-            [97, 117, "EMAIL"]
+          [0, 13, "FIRST_NAME"],
+          [14, 19, "LAST_NAME"],
+          [139, 157, "ADDRESS"],
+          [159, 179, "PHONE"],
+          [181, 203, "EMAIL"]
         ]
-    }
+      }
 ]

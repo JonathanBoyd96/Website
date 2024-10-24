@@ -1,20 +1,20 @@
 import spacy
-import pdfplumber
+import fitz  # PyMuPDF
 import docx
 import re
 
 # Load your custom address model
 nlp = spacy.load("model/data_model")
 
-def extract_text_from_pdf(file):
+def extract_text_from_pdf(file_path):
     text = ""
-    with pdfplumber.open(file) as pdf:
-        for page in pdf.pages:
-            text += page.extract_text() + "\n"
+    with fitz.open(file_path) as pdf:
+        for page in pdf:
+            text += page.get_text() + "\n"
     return text
 
-def extract_text_from_docx(file):
-    doc = docx.Document(file)
+def extract_text_from_docx(file_path):
+    doc = docx.Document(file_path)
     text = "\n".join([para.text for para in doc.paragraphs])
     return text
 
@@ -69,6 +69,10 @@ def main():
     else:
         print("Invalid file type. Please provide a PDF or DOCX file.")
         return
+
+    # Print the processed text
+    print("Processed Text:")
+    print(text)
 
     info = extract_information(text)
 

@@ -146,6 +146,7 @@
       "ORG",
       "PERCENT",
       "PERSON",
+      "PHONE",
       "PRODUCT",
       "QUANTITY",
       "STATE",

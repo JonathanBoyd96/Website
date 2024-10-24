@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, jsonify  # Added render_template back to the import
 from flask_cors import CORS  # Import CORS
 import spacy
-import pdfplumber
+import fitz  # Importing PyMuPDF
 import docx
 import re
 
@@ -11,9 +11,9 @@ nlp = spacy.load("model/data_model")  # Load your custom address model
 
 def extract_text_from_pdf(file):
     text = ""
-    with pdfplumber.open(file) as pdf:
-        for page in pdf.pages:
-            text += page.extract_text() + "\n"
+    with fitz.open(file) as pdf:  # Use PyMuPDF to open the PDF
+        for page in pdf:
+            text += page.get_text() + "\n"  # Extract text from each page
     return text
 
 def extract_text_from_docx(file):
