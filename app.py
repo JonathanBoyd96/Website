@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template
+from flask import Flask, request, jsonify  # Change render_template to jsonify
 import spacy
 import pdfplumber
 import docx
@@ -63,11 +63,11 @@ def extract_information(text):
 def upload_file():
     if request.method == "POST":
         if 'file' not in request.files:
-            return "No file part"
+            return jsonify({"error": "No file part"}), 400
         
         file = request.files['file']
         if file.filename == '':
-            return "No selected file"
+            return jsonify({"error": "No selected file"}), 400
         
         if file and (file.filename.endswith('.pdf') or file.filename.endswith('.docx')):
             if file.filename.endswith('.pdf'):
@@ -76,7 +76,7 @@ def upload_file():
                 text = extract_text_from_docx(file)
 
             info = extract_information(text)
-            return render_template("result.html", info=info)
+            return jsonify(info)  # Return JSON response instead of rendering a template
 
     return render_template("upload.html")
 
