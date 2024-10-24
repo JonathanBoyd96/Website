@@ -2,21 +2,19 @@
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KR2JYS6JCR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KR2JYS6JCR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  gtag('config', 'G-KR2JYS6JCR');
-</script>
+      gtag('config', 'G-KR2JYS6JCR');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to the new CSS file -->
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
     <title>AI Project | Jonathan Boyd</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.9.359/pdf.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.4.2/mammoth.browser.min.js"></script>
     <style>
         body { font-family: Arial, sans-serif; }
         .result { margin-top: 20px; }
@@ -52,57 +50,24 @@
         Select a PDF or DOCX file and then click the 'Upload' to see what data has been extracted below.</p>
 
         <h2 class="upload-area">Upload a PDF or DOCX file</h2> <!-- Added class for spacing -->
-        <input type="file" id="fileInput" accept=".pdf, .docx">
-        <button id="uploadBtn">Upload</button>
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" accept=".pdf,.docx" required>
+            <button type="submit">Upload</button>
+        </form>
 
-        <div class="result" id="result"></div>
+        {% if info %}
+        <div class="result">
+            <h2>Extracted Information</h2>
+            <ul>
+                <li><strong>First Name:</strong> {{ info.first_name }}</li>
+                <li><strong>Last Name:</strong> {{ info.last_name }}</li>
+                <li><strong>Address:</strong> {{ info.address }}</li>
+                <li><strong>Phone Number:</strong> {{ info.phone_number }}</li>
+                <li><strong>Email:</strong> {{ info.email }}</li>
+            </ul>
+        </div>
+        {% endif %}
     </section>
-
-    <script>
-        document.getElementById('uploadBtn').onclick = async function() {
-            const fileInput = document.getElementById('fileInput');
-            const file = fileInput.files[0];
-
-            if (!file) {
-                alert('Please select a file!');
-                return;
-            }
-
-            const formData = new FormData();
-            formData.append('file', file);
-
-            try {
-                const response = await fetch('https://website-rsjh.onrender.com', { // Update this with your actual Render URL
-                    method: 'POST',
-                    body: formData,
-                });
-
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-
-                const data = await response.json();
-                displayExtractedInfo(data);
-            } catch (error) {
-                console.error('Error:', error);
-                alert('There was a problem with the upload.');
-            }
-        };
-
-        function displayExtractedInfo(info) {
-            const resultDiv = document.getElementById('result');
-            resultDiv.innerHTML = `
-                <h2>Extracted Information</h2>
-                <ul>
-                    <li><strong>First Name:</strong> ${info.first_name}</li>
-                    <li><strong>Last Name:</strong> ${info.last_name}</li>
-                    <li><strong>Address:</strong> ${info.address}</li>
-                    <li><strong>Phone Number:</strong> ${info.phone_number}</li>
-                    <li><strong>Email:</strong> ${info.email}</li>
-                </ul>
-            `;
-        }
-    </script>
 </div>
 
 </body>
