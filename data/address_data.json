@@ -18,5 +18,15 @@
             [59, 61, "STATE"],
             [62, 68, "ZIP"]
         ]
+    },
+    {
+        "text": "Jonathan Boyd 184 Bear Paw Ct • Bogart, GA • 30622 CELL (678) 977-5619 • E-MAIL JaBoyd1996@gmail.com",
+        "entities": [
+            [0, 13, "NAME"],
+            [14, 46, "ADDRESS"],
+            [49, 55, "CITY"],
+            [57, 59, "STATE"],
+            [62, 67, "ZIP"]
+        ]
     }
 ]
