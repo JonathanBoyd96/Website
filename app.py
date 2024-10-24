@@ -1,10 +1,12 @@
 from flask import Flask, request, render_template, jsonify  # Added render_template back to the import
+from flask_cors import CORS  # Import CORS
 import spacy
 import pdfplumber
 import docx
 import re
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 nlp = spacy.load("model/address_model")  # Load your custom address model
 
 def extract_text_from_pdf(file):
