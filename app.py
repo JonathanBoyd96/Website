@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify  # Change render_template to jsonify
+from flask import Flask, request, render_template, jsonify  # Added render_template back to the import
 import spacy
 import pdfplumber
 import docx
@@ -78,7 +78,7 @@ def upload_file():
             info = extract_information(text)
             return jsonify(info)  # Return JSON response instead of rendering a template
 
-    return render_template("upload.html")
+    return render_template("upload.html")  # Render upload page on GET requests
 
 if __name__ == "__main__":
     app.run(debug=True)
