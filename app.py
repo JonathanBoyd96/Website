@@ -5,7 +5,7 @@ import docx
 import re
 
 app = Flask(__name__)
-nlp = spacy.load("model/address_model")  # Load your custom address model
+nlp = spacy.load("en_core_web_sm")  # Load your custom address model
 
 def extract_text_from_pdf(file):
     text = ""
