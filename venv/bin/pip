@@ -1,4 +1,4 @@
-#!/Users/jonathanboyd/Documents/Website/.venv/bin/python
+#!/Users/jonathanboyd/Documents/Website/venv/bin/python3.13
 # -*- coding: utf-8 -*-
 import re
 import sys
