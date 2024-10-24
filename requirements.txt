@@ -1,4 +1,6 @@
-Flask==2.3.2
-spacy==3.5.2
+Flask==2.2.2
+gunicorn==21.1.0
+numpy==1.23.5  # or the latest compatible version
+spacy==3.6.0  # or the latest compatible version
+thinc==8.1.0  # or the latest compatible version
 Cython==0.29.36
-gunicorn
