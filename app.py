@@ -7,7 +7,7 @@ import re
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
-nlp = spacy.load("model/address_model")  # Load your custom address model
+nlp = spacy.load("model/data_model")  # Load your custom address model
 
 def extract_text_from_pdf(file):
     text = ""

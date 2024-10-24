@@ -56,4 +56,4 @@ for itn in range(n_iter):
     print(f"Iteration {itn}: Losses {losses}")
 
 # Save the trained model
-nlp.to_disk("model/address_model")
+nlp.to_disk("model/data_model")
