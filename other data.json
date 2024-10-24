@@ -1,0 +1,181 @@
+,
+    {
+        "text": "Chris Evans located at 12 Maple Blvd, Miami, FL 33101",
+        "entities": [
+            [0, 11, "NAME"],
+            [25, 37, "ADDRESS"],
+            [39, 44, "CITY"],
+            [46, 48, "STATE"],
+            [49, 54, "ZIP"]
+        ]
+    },
+    {
+        "text": "Will Smith - 1000 Hollywood Blvd, Los Angeles, CA 90068",
+        "entities": [
+            [0, 10, "NAME"],
+            [13, 31, "ADDRESS"],
+            [33, 45, "CITY"],
+            [47, 49, "STATE"],
+            [50, 55, "ZIP"]
+        ]
+    },
+    {
+        "text": "Scarlett Johansson resides at 88 Sunset Blvd, Beverly Hills, CA 90210",
+        "entities": [
+            [0, 19, "NAME"],
+            [30, 45, "ADDRESS"],
+            [47, 60, "CITY"],
+            [62, 64, "STATE"],
+            [65, 70, "ZIP"]
+        ]
+    },
+    {
+        "text": "Address for Michael Jordan: 1234 Basketball Ct, Chicago, IL 60614",
+        "entities": [
+            [11, 24, "NAME"],
+            [26, 44, "ADDRESS"],
+            [46, 53, "CITY"],
+            [55, 57, "STATE"],
+            [58, 63, "ZIP"]
+        ]
+    },
+    {
+        "text": "Jason Statham - 52 Broad Street, Orlando, FL 32801",
+        "entities": [
+            [0, 13, "NAME"],
+            [16, 32, "ADDRESS"],
+            [34, 41, "CITY"],
+            [43, 45, "STATE"],
+            [46, 51, "ZIP"]
+        ]
+    },
+    {
+        "text": "At home of Jennifer Lawrence, 902 Oak Grove Rd, Pittsburgh, PA 15213",
+        "entities": [
+            [10, 27, "NAME"],
+            [29, 45, "ADDRESS"],
+            [47, 58, "CITY"],
+            [60, 62, "STATE"],
+            [63, 68, "ZIP"]
+        ]
+    },
+    {
+        "text": "Tom Hanks at 987 Palm Street, San Francisco, CA 94110",
+        "entities": [
+            [0, 9, "NAME"],
+            [13, 28, "ADDRESS"],
+            [30, 44, "CITY"],
+            [46, 48, "STATE"],
+            [49, 54, "ZIP"]
+        ]
+    },
+    {
+        "text": "Emma Watson: 456 Elm St Apt 3, Denver, CO 80220",
+        "entities": [
+            [0, 11, "NAME"],
+            [13, 27, "ADDRESS"],
+            [29, 35, "CITY"],
+            [37, 39, "STATE"],
+            [40, 45, "ZIP"]
+        ]
+    },
+    {
+        "text": "Address for Zac Efron: 789 Maplewood Rd, Houston, TX 77001",
+        "entities": [
+            [12, 21, "NAME"],
+            [23, 40, "ADDRESS"],
+            [42, 49, "CITY"],
+            [51, 53, "STATE"],
+            [54, 59, "ZIP"]
+        ]
+    },
+    {
+        "text": "Matt Damon at 1010 River Road, Seattle, WA 98101",
+        "entities": [
+            [0, 10, "NAME"],
+            [14, 29, "ADDRESS"],
+            [31, 38, "CITY"],
+            [40, 42, "STATE"],
+            [43, 48, "ZIP"]
+        ]
+    },
+    {
+        "text": "Natalie Portman • 303 Beach Ave, Santa Monica, CA 90401",
+        "entities": [
+            [0, 15, "NAME"],
+            [18, 31, "ADDRESS"],
+            [33, 45, "CITY"],
+            [47, 49, "STATE"],
+            [50, 55, "ZIP"]
+        ]
+    },
+    {
+        "text": "Keanu Reeves - 44 Cypress St Apt 12, Portland, OR 97201",
+        "entities": [
+            [0, 12, "NAME"],
+            [15, 34, "ADDRESS"],
+            [36, 44, "CITY"],
+            [46, 48, "STATE"],
+            [49, 54, "ZIP"]
+        ]
+    },
+    {
+        "text": "Jennifer Aniston, 500 Rosewood Blvd, Austin, TX 78701",
+        "entities": [
+            [0, 17, "NAME"],
+            [19, 36, "ADDRESS"],
+            [38, 44, "CITY"],
+            [46, 48, "STATE"],
+            [49, 54, "ZIP"]
+        ]
+    },
+    {
+        "text": "Leonardo DiCaprio currently lives at 888 Riverfront Ave, Atlanta, GA 30303",
+        "entities": [
+            [0, 18, "NAME"],
+            [41, 60, "ADDRESS"],
+            [62, 69, "CITY"],
+            [71, 73, "STATE"],
+            [74, 79, "ZIP"]
+        ]
+    },
+    {
+        "text": "Sandra Bullock - 123 Redwood Circle, Las Vegas, NV 89109",
+        "entities": [
+            [0, 14, "NAME"],
+            [17, 35, "ADDRESS"],
+            [37, 46, "CITY"],
+            [48, 50, "STATE"],
+            [51, 56, "ZIP"]
+        ]
+    },
+    {
+        "text": "Robert Downey Jr. at 555 Iron Man Blvd, Los Angeles, CA 90210",
+        "entities": [
+            [0, 16, "NAME"],
+            [20, 37, "ADDRESS"],
+            [39, 51, "CITY"],
+            [53, 55, "STATE"],
+            [56, 61, "ZIP"]
+        ]
+    },
+    {
+        "text": "Chris Pratt, 789 Star Lord St, Seattle, WA 98101",
+        "entities": [
+            [0, 11, "NAME"],
+            [13, 30, "ADDRESS"],
+            [32, 39, "CITY"],
+            [41, 43, "STATE"],
+            [44, 49, "ZIP"]
+        ]
+    },
+    {
+        "text": "Hugh Jackman - 25 Wolverine Way, Melbourne, FL 32934",
+        "entities": [
+            [0, 12, "NAME"],
+            [15, 34, "ADDRESS"],
+            [36, 44, "CITY"],
+            [46, 48, "STATE"],
+            [49, 54, "ZIP"]
+        ]
+    }

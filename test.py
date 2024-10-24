@@ -4,7 +4,7 @@ import docx
 import re
 
 # Load your custom address model
-nlp = spacy.load("model/data_model")
+nlp = spacy.load("output/model-best")
 
 def extract_text_from_pdf(file_path):
     text = ""

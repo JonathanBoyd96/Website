@@ -1,0 +1,102 @@
+[
+    {
+        "text": "Tom Hardy: 789 Venom St Apt 6, San Francisco, CA 94110",
+        "entities": [
+            [0, 9, "NAME"],
+            [11, 29, "ADDRESS"],
+            [31, 44, "CITY"],
+            [46, 48, "STATE"],
+            [49, 54, "ZIP"]
+        ]
+    },
+    {
+        "text": "Angelina Jolie lives at 321 Maleficent Ln, Beverly Hills, CA 90210",
+        "entities": [
+            [0, 14, "NAME"],
+            [24, 41, "ADDRESS"],
+            [43, 56, "CITY"],
+            [58, 60, "STATE"],
+            [61, 66, "ZIP"]
+        ]
+    },
+    {
+        "text": "George Clooney resides at 789 Ocean Ave, Malibu, CA 90265",
+        "entities": [
+            [0, 14, "NAME"],
+            [26, 39, "ADDRESS"],
+            [41, 47, "CITY"],
+            [49, 51, "STATE"],
+            [52, 57, "ZIP"]
+        ]
+    },
+    {
+        "text": "Brad Pitt - 123 Fight Club Ln, Hollywood, CA 90028",
+        "entities": [
+            [0, 9, "NAME"],
+            [12, 29, "ADDRESS"],
+            [31, 40, "CITY"],
+            [42, 44, "STATE"],
+            [45, 50, "ZIP"]
+        ]
+    },
+    {
+        "text": "Cate Blanchett, 555 Lord St Apt 10, Sydney, NSW 2000",
+        "entities": [
+            [0, 14, "NAME"],
+            [16, 34, "ADDRESS"],
+            [36, 42, "CITY"],
+            [44, 47, "STATE"],
+            [48, 52, "ZIP"]
+        ]
+    },
+    {
+        "text": "Hugh Jackman at 789 Wolverine St, New York, NY 10001",
+        "entities": [
+            [0, 12, "NAME"],
+            [16, 32, "ADDRESS"],
+            [34, 42, "CITY"],
+            [44, 46, "STATE"],
+            [47, 52, "ZIP"]
+        ]
+    },
+    {
+        "text": "Matt LeBlanc • 999 Friends St, Los Angeles, CA 90013",
+        "entities": [
+            [0, 12, "NAME"],
+            [15, 29, "ADDRESS"],
+            [31, 42, "CITY"],
+            [44, 46, "STATE"],
+            [47, 52, "ZIP"]
+        ]
+    },
+    {
+        "text": "Jason Momoa - 456 Atlantis Ave, Honolulu, HI 96815",
+        "entities": [
+            [0, 11, "NAME"],
+            [14, 30, "ADDRESS"],
+            [32, 40, "CITY"],
+            [42, 44, "STATE"],
+            [45, 50, "ZIP"]
+        ]
+    },
+    {
+        "text": "Priyanka Chopra, 987 Bollywood Blvd, Mumbai, MH 400001",
+        "entities": [
+            [0, 15, "NAME"],
+            [17, 35, "ADDRESS"],
+            [37, 43, "CITY"],
+            [45, 47, "STATE"],
+            [48, 54, "ZIP"]
+        ]
+    },
+    {
+        "text": "Eddie Redmayne lives at 654 Magical St, London, UK W1A 1AA",
+        "entities": [
+            [0, 14, "NAME"],
+            [24, 38, "ADDRESS"],
+            [40, 46, "CITY"],
+            [48, 50, "STATE"],
+            [51, 58, "ZIP"]
+        ]
+    }
+]
