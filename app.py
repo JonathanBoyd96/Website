@@ -4,6 +4,7 @@ import spacy
 import fitz  # Importing PyMuPDF
 import docx
 import re
+import os
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
@@ -11,9 +12,19 @@ nlp = spacy.load("model/data_model")  # Load your custom address model
 
 def extract_text_from_pdf(file):
     text = ""
-    with fitz.open(file) as pdf:  # Use PyMuPDF to open the PDF
+    
+    # Save the uploaded file temporarily
+    with open("temp.pdf", "wb") as temp_file:
+        temp_file.write(file.read())  # Write the content of the file to the temporary file
+
+    # Open the temporary PDF file with PyMuPDF
+    with fitz.open("temp.pdf") as pdf:
         for page in pdf:
             text += page.get_text() + "\n"  # Extract text from each page
+    
+    # Optionally, remove the temporary file after extracting text
+    os.remove("temp.pdf")
+    
     return text
 
 def extract_text_from_docx(file):
