@@ -20,7 +20,7 @@ body {
     padding: 20px;
     position: fixed;
     height: 100%;
-    overflow: auto;
+    overflow-y: auto;
     box-shadow: 2px 0 12px rgba(0, 0, 0, 0.15);
     border-right: 2px solid rgba(255, 255, 255, 0.1);
 }
@@ -50,7 +50,7 @@ body {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: background 0.3s ease, transform 0.2s ease;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
 }
 
 .sidebar a:hover {
@@ -178,6 +178,29 @@ input[type="text"], input[type="number"] {
 .btn:hover {
     background: #922121;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #bf2b2b; /* Original red color */
+    color: white;
+    border: none;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+button:hover {
+    background-color: #922121; /* Slightly darker red on hover */
+
+}
+
+button:active {
+    background-color: #922121; /* Darker red for active state */
+    
 }
 
 /* Table Styling */
