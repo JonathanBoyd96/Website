@@ -180,6 +180,22 @@ input[type="text"], input[type="number"] {
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
 }
 
+.btn2 {
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn2:hover:hover {
+    background: #922121;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
 button {
     width: 100%;
     padding: 12px 20px;
