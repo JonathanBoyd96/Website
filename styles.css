@@ -90,6 +90,21 @@ body {
     font-size: 1.2em;
 }
 
+/* Container for the separator */
+.sidebar .separator-container {
+    width: calc(100% + 40px); /* Ensures full width alignment */
+    margin-left: -20px; /* Aligns with the sidebar edges */
+    margin-bottom: 15px; /* Adds space below the bar without shifting alignment */
+}
+
+/* Separator styling */
+.sidebar .separator {
+    width: 100%; /* Set separator width to fill container */
+    height: 3px;
+    background-color: white;
+    border-radius: 1px;
+}
+
 /* Header styling */
 header {
     background: linear-gradient(135deg, #bf2b2b, #b14343);
@@ -307,8 +322,9 @@ tr:hover {
     border-radius: 8px;
 }
 
-.upload-area {
+input[type="file"] {
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 /* Link styling */
