@@ -266,6 +266,7 @@ tr:hover {
 
 /* About and Experience sections */
 .about,
+.welcome,
 .experience,
 .data {
     line-height: 1.6;
